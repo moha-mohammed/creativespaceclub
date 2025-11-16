@@ -2,7 +2,7 @@
 **Official website for Creative Space Club at University of Oran 1 – Ahmed Ben Bella**  
 *Where students create, innovate, and elevate together.*
 
-[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-creative-space-club-oran1.tech-1abc9c?style=for-the-badge&logo=github)](https://creative-space-club-oran1.tech)  
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-creative space club oran1.tech-1abc9c?style=for-the-badge&logo=github)](https://creative-space-club-oran1.tech)  
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployed-181717?style=for-the-badge&logo=github)](https://pages.github.com)  
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
@@ -38,3 +38,4 @@
 ---
 
 ## 📂 Project Structure
+
