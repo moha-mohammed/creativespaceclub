@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Space Club | University of Oran 1</title>
+  <meta name="description" content="Creative Space Club at University of Oran 1 – where students create, innovate, and elevate through workshops, events, and community. Open to all.">
+  <meta property="og:title" content="Creative Space Club">
+  <meta property="og:description" content="Official club of University of Oran 1 – workshops, events, and community for ambitious learners.">
+  <meta property="og:url" content="https://creative-space-club.vercel.app">
+  <meta property="og:image" content="https://creative-space-club.vercel.app/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <style>
+    :root { --primary: #1abc9c; --dark: #2c3e50; }
+    body { font-family: 'Poppins', sans-serif; background: #f8f9fa; color: #333; }
+    .navbar { box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .hero { background: linear-gradient(135deg, var(--dark), #1a252d); color: white; padding: 5rem 0; text-align: center; }
+    .section { padding: 5rem 0; }
+    .section-title { font-weight: 700; color: var(--dark); margin-bottom: 2rem; }
+    .card { border: none; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05); transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .team-card img { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; margin: 0 auto 1rem; border: 3px solid var(--primary); }
+    .btn-primary { background: var(--primary); border: none; padding: 0.8rem 1.8rem; font-weight: 600; }
+    footer { background: var(--dark); color: white; padding: 2.5rem 0; }
+    .social-links a { color: white; font-size: 1.8rem; margin: 0 10px; }
+    .social-links a:hover { color: var(--primary); }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#hero">Creative Space Club</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#join">Join Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="container py-5">
+      <img src="logo.png" alt="Creative Space Club Logo" class="img-fluid mb-4" style="max-width: 200px; border: 3px solid white; border-radius: 12px;">
+      <h1 class="display-4 fw-bold">create, innovate, elevate</h1>
+      <p class="lead mt-3 fs-5">
+        At Creative Space Club, we’re more than just a workshop provider—we’re a family of ambitious learners united by the belief that everyone deserves an equal opportunity to grow. Every week, we run hands-on workshops designed to sharpen your talents—from design and coding to public speaking and beyond—and once or twice a month we host events that bring our community together to collaborate, showcase new ideas, and celebrate each other’s progress. Open to any university student with the drive to improve, we operate without hierarchies—because here, we all stand on the same ground, ready to support one another as we “create, innovate, elevate.”
+      </p>
+      <a href="#join" class="btn btn-primary btn-lg mt-4 px-5 py-3">Join Our Community</a>
+    </div>
+  </section>
+
+  <section id="about" class="section bg-white">
+    <div class="container">
+      <h2 class="section-title text-center">Welcome to Creative Space & Scientific Club</h2>
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <div class="p-4 bg-light rounded h-100">
+            <h3 class="text-primary mb-3">✨ Creative Space Club</h3>
+            <p class="lead">We believe every student has potential.</p>
+            <p>
+              We're an educational and developmental student club that helps talented individuals grow both personally and professionally. From public speaking and soft skills to graphic design, video editing, foreign languages, programming, and more, our specialized cells offer consistent weekly workshops, engaging events, and hands-on experiences that shape students into future leaders and creators.
+            </p>
+            <p>
+              Our club is driven by values of professionalism, consistency, creativity, and collaboration. We maintain a friendly and respectful environment, and we believe that good behavior is just as important as skill.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="p-4 bg-light rounded h-100">
+            <h3 class="text-primary mb-3">🔬 Scientific Club</h3>
+            <p>
+              Where curiosity leads. With a structured and responsible team, we organize research-based activities, awareness events like Pink October, and science outreach to bring knowledge into action. We aim to make science engaging, applicable, and community-focused.
+            </p>
+            <p>
+              Together, both clubs offer a space where minds grow, skills evolve, and students inspire one another.
+            </p>
+            <p class="fw-bold mt-3">
+              📍 Based at Oran 1 Ahmed Ben Bella University — our doors are open to students who are ready to learn, contribute, and shine.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">🌟 Events & Workshops</h2>
+      <div class="row g-4">
+        <!-- Event 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body p-4">
+              <h5 class="card-title text-primary">🎤 English Public Speaking Workshop</h5>
+              <p class="card-text">
+                6-week intensive program with SpeakSpot. Focus: confidence, fluency, speech structure. Groups: Tuesdays & Wednesdays.
+              </p>
+              <span class="badge bg-primary mt-2">Past Event</span>
+            </div>
+          </div>
+        </div>
+        <!-- Event 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body p-4">
+              <h5 class="card-title text-primary">💼 English Skills Masterclass</h5>
+              <p class="card-text">
+                Led by VP. Education vs business paths, Q&A, grammar games, and icebreaker activities.
+              </p>
+              <span class="badge bg-success mt-2">Past Event</span>
+            </div>
+          </div>
+        </div>
+        <!-- Event 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body p-4">
+              <h5 class="card-title text-primary">💬 Hot Topic Sessions</h5>
+              <p class="card-text">
+                Weekly interactive discussions on chosen themes. Strengthen communication, critical thinking, and group cohesion.
+              </p>
+              <span class="badge bg-info mt-2">Ongoing</span>
+            </div>
+          </div>
+        </div>
+        <!-- Event 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body p-4">
+              <h5 class="card-title text-primary">📣 Creative Space Open Day</h5>
+              <p class="card-text">
+                Annual event welcoming new students. Mini-presentations, demos, and sign-up opportunities for 12 groups.
+              </p>
+              <span class="badge bg-warning mt-2">Annual</span>
+            </div>
+          </div>
+        </div>
+        <!-- Event 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body p-4">
+              <h5 class="card-title text-primary">🎬 Short Film: Cyber Crimes</h5>
+              <p class="card-text">
+                Student-made film raising awareness about online safety and digital ethics.
+              </p>
+              <span class="badge bg-danger mt-2">Project</span>
+            </div>
+          </div>
+        </div>
+        <!-- Event 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body p-4">
+              <h5 class="card-title text-primary">🗓️ Algeria Revolution National Day</h5>
+              <p class="card-text">
+                Commemoration event held Nov 1st, 2024 — honoring national history and student activism.
+              </p>
+              <span class="badge bg-secondary mt-2">Past Event</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section bg-white">
+    <div class="container">
+      <h2 class="section-title text-center">👥 The Officials</h2>
+      <div class="row g-4 justify-content-center">
+        <!-- Team Member 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card team-card text-center border-0">
+            <img src="tayeb.png" alt="Sebda Tayeb Zouaoui">
+            <div class="card-body">
+              <h5 class="fw-bold">Sebda Tayeb Zouaoui</h5>
+              <p class="text-muted mb-0">President</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card team-card text-center border-0">
+            <img src="moha.png" alt="Benaissa Mohammed">
+            <div class="card-body">
+              <h5 class="fw-bold">Benaissa Mohammed</h5>
+              <p class="text-muted mb-0">VP & Tech Lead</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card team-card text-center border-0">
+            <img src="ash.jpg" alt="Ladlani Ashouak">
+            <div class="card-body">
+              <h5 class="fw-bold">Ladlani Ashouak</h5>
+              <p class="text-muted mb-0">Community Manager</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card team-card text-center border-0">
+            <img src="ahlem.jpeg" alt="Ammari Ahlem Aicha">
+            <div class="card-body">
+              <h5 class="fw-bold">Ammari Ahlem Aicha</h5>
+              <p class="text-muted mb-0">IR Manager</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 5 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card team-card text-center border-0">
+            <img src="bachir.webp" alt="Bennamia Bachir">
+            <div class="card-body">
+              <h5 class="fw-bold">Bennamia Bachir</h5>
+              <p class="text-muted mb-0">General Secretary</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 6 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card team-card text-center border-0">
+            <img src="nari.jpg" alt="Nariman Khaldi">
+            <div class="card-body">
+              <h5 class="fw-bold">Nariman Khaldi</h5>
+              <p class="text-muted mb-0">ER Manager</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 7 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card team-card text-center border-0">
+            <img src="oka.jpg" alt="Touaoula Okacha">
+            <div class="card-body">
+              <h5 class="fw-bold">Touaoula Okacha</h5>
+              <p class="text-muted mb-0">HR Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join" class="section bg-dark text-white">
+    <div class="container">
+      <h2 class="section-title text-center">🚀 Join Us!</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="lead fs-5">
+            Open to any oran1 university student with the drive to improve. We operate without hierarchies — because here, we all stand on the same ground, ready to support one another.
+          </p>
+          <div class="mt-4">
+            <p><strong>📍 Location:</strong> University of Oran 1 – Ahmed Ben Bella</p>
+            <p><strong>📧 Contact:</strong> <a href="http://creativespaceclub.ddns.net" target="_blank" class="text-white fw-bold">creativespaceclub.ddns.net</a> </p>
+            <a href="https://forms.gle/sur5sLddkpdTgZoz6" class="btn btn-primary btn-lg mt-3">Join US</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+<footer>
+  <div class="container">
+    <!-- Social Icons Row -->
+    <div class="social-links d-flex justify-content-center flex-wrap gap-4 py-4">
+      <a href="https://www.facebook.com/share/1D3oDCwajf/?mibextid=wwXIfr" target="_blank" aria-label="Facebook" class="text-white fs-1">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/creative.space_club" target="_blank" aria-label="Instagram" class="text-white fs-1">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.tiktok.com/@creativespaceclub?_r=1&_d=e44e79cce0d97h&sec_uid=MS4wLjABAAAAhP_Yhpwu99UXXD1sSpY_Lkm5H-92YBr-eRh7K_XUknK_LP_bv20F07boQ9VGewgt&share_author_id=7421591533587334150&sharer_language=en&source=h5_m&u_code=egf3hi6065def4&timestamp=1746130633&user_id=7421591533587334150&sec_user_id=MS4wLjABAAAAhP_Yhpwu99UXXD1sSpY_Lkm5H-92YBr-eRh7K_XUknK_LP_bv20F07boQ9VGewgt&share_iid=7498252927996643127&share_link_id=34577f87-119d-4b72-b22a-0590b5a385fc&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1" target="_blank" aria-label="TikTok" class="text-white fs-1">
+        <i class="bi bi-tiktok"></i>
+      </a>
+      <a href="https://youtube.com/@creativespaceclub" target="_blank" aria-label="YouTube" class="text-white fs-1">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/creative-space-club-20568735a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn" class="text-white fs-1">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="mailto:creative.space.oran1@gmail.com" aria-label="Email" class="text-white fs-1">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    
+    <!-- Centered Copyright -->
+    <p class="text-center mb-0 py-2">
+      &copy; 2025 Creative Space Club | University of Oran 1 – Ahmed Ben Bella
+    </p>
+  </div>
+</footer>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
